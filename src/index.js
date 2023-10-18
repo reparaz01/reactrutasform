@@ -3,11 +3,24 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import Home from './components/Home';
+import Cine from './components/Cine';
+import Musica from './components/Musica';
+import Router from './components/Router';
+import MenuRutas from './components/MenuRutas';
+import FormSimple from './components/FormSimple';
+import Collatz from './components/Collatz';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <h1> Pagina Principal</h1>
+    <Collatz></Collatz>
+    <MenuRutas></MenuRutas>
+    <hr/>
+    <Router/>
+    <hr/>
+    <h1> Pie de Pagina</h1>
   </React.StrictMode>
 );
 
